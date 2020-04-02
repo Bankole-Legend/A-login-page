@@ -1,0 +1,144 @@
+ html {
+    color: rgb(133, 131, 131);
+    font-family: 'ABeeZee', sans-serif;
+}
+
+/* Adding the fading background effect */
+body {
+    height: 100vh;
+    background-image: linear-gradient(to top, rgb(13, 17, 243), rgb(250, 5, 148));
+}
+
+/*Styling the form*/
+section {
+    position: fixed;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow:0 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 10px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 1.2em;
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+
+}
+
+/* Styling the Header */
+ h1 {
+font-family: fantasy;
+color: #000;
+ }
+
+ /* Styling the input tags and button */
+.box {
+    width: 250px;
+    height: 3em;
+    margin-bottom: 1em;
+    border-style: none;
+    border-radius: 1px;
+}
+.mail{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+input {
+    background-color: rgb(226, 221, 221);
+}
+#first {
+    margin-right: 4px;
+}
+
+.font {
+    display: inline-block;
+    width: 40px;
+    height: 2.5em;
+    position: relative;
+    top: 2px;
+    background-color: rgb(226, 221, 221);
+}
+ion-icon {
+    padding-top: 8px;
+    width: 20px;
+    height: 20px;
+}
+.one {
+    left: 6px;
+    width: 42px;
+}
+.two {
+    bottom: 3px;
+    margin-left: 6px;
+    height: 2.45em
+}
+
+/* Styling the checkbox */
+#checking{
+    display: none;
+}
+.checkbox{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: inherit;
+    border: 2px solid rgb(220, 20, 103);
+    border-radius: 2px;
+    position: relative;
+    right: 80px;
+    margin-left: 8px;
+}
+
+.checkbox::after{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 8px;
+    border-right: 2px solid rgb(220, 20, 103);
+    border-bottom: 2px solid rgb(220, 20, 103);
+    top: 30%;
+    transform: translate(-40%, -40%) rotateZ(40deg);
+    opacity: 0;
+}
+#checking:checked ~ .checkbox::after{
+    opacity: 1;
+}
+/* Styling the text */
+#check {
+    position: relative;
+    right: 78px;
+}
+/* Styling the login button */
+button {
+    margin-top: 2em;
+    width: 290px;
+    height: 3em;
+    color: #fff;
+    background-color: rgb(220, 20, 103);
+    border-style: none;
+    border-radius: 2px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Styling the social media boxes */
+.socialIcons {
+    display: inline-block;
+    width: 140px;
+    height: 2em;
+    border: 1px solid  rgb(194, 192, 192);
+    border-radius: 2px;
+    margin-bottom: 2em;
+}
+.google {
+    position: relative;
+color: #000000;
+margin-left: 10px;
+}
+.facebook{
+    color: #3b5998;
+} 
+img {
+    margin-top: 5px;
+}
