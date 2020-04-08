@@ -1,0 +1,98 @@
+/*@media screen and queries for small laptops*/
+@media screen and (max-width: 1024px)
+{
+    body {
+        height: 110vh;
+    }
+    section{
+      position: absolute;
+        left: 32%;
+        height: 25em;
+        width: 20em;
+    margin-top: 3em;
+    }
+}
+
+/*@media screen and queries for tablets*/
+@media screen and (max-width: 768px){
+    body {
+        height: 100vh;
+    }
+    section{
+        position: absolute;
+        left: 28%;
+    }
+    .socialIcons {
+        margin-bottom: 1.2em;
+    }
+}
+
+/*@media screen and queries for phones*/
+@media screen and (max-width: 640px){
+    section{
+        position: absolute;
+        left: 20%;
+    }
+    .socialIcons {
+        margin-bottom: 0.8em;
+    }
+}
+@media screen and (max-width: 520px) {
+    body {
+        height: 105vh;
+        font-size: smaller;
+    }
+    section{
+        position: absolute;
+        left: 17%;
+        width: 18em;
+        height: 27em;   
+    }
+    .box {
+        /* width: 250px; */
+        width: 15em;
+        height: 2.5em;
+        margin-bottom: 1em;
+        border-radius: 1px;
+    }
+    .font {
+        position: relative;
+        top: 5px;
+        width: 2em;
+        height: 2.1em;
+        
+    }
+    .checkbox{
+        position: relative;
+        right: 3.2em;
+        margin-left: 8px;
+    }
+    #check {
+        position: relative;
+        right: 3em;
+    }
+    button {
+        margin-top: 2em;
+        width: 18.125em;
+        height: 2.8em;    
+    }
+    .socialIcons {
+        margin-bottom: 0.5em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+}
+@media screen and (max-width: 435px) {
+    section{
+        position: absolute;
+        left: 12%;
+        width: 85%;
+    }
+}
+@media screen and (max-width: 380px) {
+    section{
+        position: absolute;
+        left: 8%; 
+    }
+}
